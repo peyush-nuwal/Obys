@@ -361,7 +361,7 @@ document.querySelector('#hero3').addEventListener('mouseleave',()=>{
 
 
 //underline animation
-const scrollAnimation=()=>{
+const underlineAnimation=()=>{
 
 
 
@@ -430,12 +430,12 @@ if (!/Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navig
   customCursor()
   sheryAnimation()
   scrollAnimation();
-  scrollAnimation()
+  underlineAnimation()
 }
 else {
   var extraImg = document.querySelectorAll(".extraImg");
   extraImg.forEach(function (img) {
       img.style.display = "none";
   })
-
+  
 }
