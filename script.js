@@ -429,7 +429,7 @@ gsap.from('#underline',{
 if (!/Android|webOS|iPhone|iPod|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   customCursor()
   sheryAnimation()
-  scrollAnimation();
+ 
   underlineAnimation()
 }
 else {
